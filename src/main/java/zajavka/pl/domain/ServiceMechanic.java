@@ -1,2 +1,4 @@
-package zajavka.pl.domain;public class ServiceMechanic {
+package zajavka.pl.domain;
+
+public class ServiceMechanic {
 }

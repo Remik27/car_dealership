@@ -1,2 +1,4 @@
-package zajavka.pl.domain;public class CartoService {
+package zajavka.pl.domain;
+
+public class CartoService {
 }
