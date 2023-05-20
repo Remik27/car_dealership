@@ -4,9 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Add tables_creator.ddl">
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Add HibernateUtil">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/configuration/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/configuration/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Address.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CarServiceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CarServiceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CarToBuy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CarToBuy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CartoService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CartoService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Invoice.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Invoice.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Mechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Mechanic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Part.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Part.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Salesman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Salesman.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Service.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Service.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/ServiceMechanic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/ServiceMechanic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/ServicePart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/ServicePart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -95,7 +106,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684617249984</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add HibernateUtil">
+      <created>1684618863153</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1684618863153</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -111,6 +129,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add tables_creator.ddl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add tables_creator.ddl" />
+    <MESSAGE value="Add HibernateUtil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add HibernateUtil" />
   </component>
 </project>
