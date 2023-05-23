@@ -8,5 +8,5 @@ public interface ServiceMechanicRepository {
     void add(List<ServiceMechanic> records);
     ServiceMechanic find(Integer id);
 
-    void delete(Integer id);
+    void delete(ServiceMechanic record);
 }
