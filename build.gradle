@@ -14,6 +14,7 @@ ext {
     springVersion = '5.3.23'
     postgresqlDriverVersion = '42.5.0'
     hibernateConfiguration = '6.2.3.Final'
+    flexMarkVersion = '0.64.6'
 }
 
 repositories {
@@ -48,6 +49,8 @@ dependencies {
     testImplementation "org.springframework:spring-test:$springVersion"
 
     implementation "org.hibernate:hibernate-core:$hibernateConfiguration"
+
+    implementation "com.vladsch.flexmark:flexmark:$flexMarkVersion"
 
 }
 
