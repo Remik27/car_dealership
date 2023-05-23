@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="complete relations(CarServiceRequest, ServiceMechanic)">
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="deleted ServicePart.java">
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepositoryImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepositoryImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +43,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -31,7 +54,9 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2Phyk5eJErdqzV8ahEgOLOOLmjD" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
@@ -54,6 +79,9 @@
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\IdeaProjects\car_dealership\src\main\resources" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="zajavka.pl.service" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -114,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684855851382</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="deleted ServicePart.java">
+      <created>1684859593784</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1684859593784</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -134,6 +169,7 @@
     <MESSAGE value="complete entity data" />
     <MESSAGE value="complete relations" />
     <MESSAGE value="complete relations(CarServiceRequest, ServiceMechanic)" />
-    <option name="LAST_COMMIT_MESSAGE" value="complete relations(CarServiceRequest, ServiceMechanic)" />
+    <MESSAGE value="deleted ServicePart.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="deleted ServicePart.java" />
   </component>
 </project>
