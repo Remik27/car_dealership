@@ -8,5 +8,5 @@ public interface AddressRepository {
     void add(List<Address> records);
     Address find(Integer id);
 
-    void delete(Integer id);
+    void delete(Address record);
 }

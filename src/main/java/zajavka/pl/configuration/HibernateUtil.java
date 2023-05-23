@@ -25,9 +25,9 @@ public class HibernateUtil {
                     Map.entry(Environment.FORMAT_SQL, "true")
             );
 
-    private static SessionFactory sessionFactory;
+    private static final SessionFactory sessionFactory = loadSessionFactory();
 
-    public static SessionFactory loadSessionFactory() {
+    private static SessionFactory loadSessionFactory() {
         try {
             ServiceRegistry serviceRegistry = new StandardServiceRegistryBuilder()
                     .applySettings(SETTINGS)
@@ -61,7 +61,7 @@ public class HibernateUtil {
         }
     }
 
-    static Session getSession() {
+    public static Session getSession() {
         try {
             return sessionFactory.openSession();
         } catch (Exception ex) {
