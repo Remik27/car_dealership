@@ -8,5 +8,5 @@ public interface CustomerRepository {
     void add(List<Customer> records);
     Customer find(Integer id);
 
-    void delete(Integer id);
+    void delete(Customer record);
 }
