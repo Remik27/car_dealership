@@ -4,11 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Completed service classes">
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Added flexMark to gradle">
       <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MdFileReader.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MdFileReaderImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -229,7 +228,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684872950896</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="Added flexMark to gradle">
+      <created>1684873380880</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1684873380880</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -264,6 +270,7 @@
     <MESSAGE value="Completed ServiceRepositoryImpl" />
     <MESSAGE value="Added services classes and interfaces" />
     <MESSAGE value="Completed service classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed service classes" />
+    <MESSAGE value="Added flexMark to gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added flexMark to gradle" />
   </component>
 </project>
