@@ -8,5 +8,5 @@ public interface CarToBuyRepository {
     void add(List<CarToBuy> records);
     CarToBuy find(Integer id);
 
-    void delete(Integer id);
+    void delete(CarToBuy record);
 }
