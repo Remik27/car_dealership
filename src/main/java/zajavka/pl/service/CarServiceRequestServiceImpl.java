@@ -1,12 +1,20 @@
 package zajavka.pl.service;
 
+import lombok.RequiredArgsConstructor;
 import zajavka.pl.domain.CarServiceRequest;
 
 import java.util.List;
+@RequiredArgsConstructor
+public class CarServiceRequestServiceImpl implements CarServiceRequestService {
+    private final CarServiceRequestRepository carServiceRequestRepository;
+    public void add(List<CarServiceRequest> records){
+        carServiceRequestRepository.add(records);
+    }
+    public CarServiceRequest find(Integer id){
+        return carServiceRequestRepository.find(id);
+    }
 
-public interface CarServiceRequestServiceImpl {
-    void add(List<CarServiceRequest> records);
-    CarServiceRequest find(Integer id);
-
-    void delete(CarServiceRequest record);
+    public void delete(CarServiceRequest record){
+        carServiceRequestRepository.delete(record);
+    }
 }

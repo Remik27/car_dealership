@@ -4,29 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Completed ServiceRepositoryImpl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceServiceImpl.java" afterDir="false" />
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Added services classes and interfaces">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicRepositoryImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -233,7 +225,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684870852512</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="Added services classes and interfaces">
+      <created>1684871198486</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1684871198486</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,6 +265,7 @@
     <MESSAGE value="Completed SalesmanRepositoryImpl" />
     <MESSAGE value="Completed ServiceMechanicRepositoryImpl" />
     <MESSAGE value="Completed ServiceRepositoryImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed ServiceRepositoryImpl" />
+    <MESSAGE value="Added services classes and interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added services classes and interfaces" />
   </component>
 </project>

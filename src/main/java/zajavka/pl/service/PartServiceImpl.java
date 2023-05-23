@@ -1,12 +1,20 @@
 package zajavka.pl.service;
 
+import lombok.RequiredArgsConstructor;
 import zajavka.pl.domain.Part;
 
 import java.util.List;
+@RequiredArgsConstructor
+public class PartServiceImpl implements PartService {
+    private final PartRepository partRepository;
+    public void add(List<Part> records){
+        partRepository.add(records);
+    }
+    public Part find(Integer id){
+        return partRepository.find(id);
+    }
 
-public interface PartServiceImpl {
-    void add(List<Part> records);
-    Part find(Integer id);
-
-    void delete(Part record);
+    public void delete(Part record){
+        partRepository.delete(record);
+    }
 }

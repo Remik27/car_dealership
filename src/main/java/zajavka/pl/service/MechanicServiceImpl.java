@@ -1,12 +1,20 @@
 package zajavka.pl.service;
 
+import lombok.RequiredArgsConstructor;
 import zajavka.pl.domain.Mechanic;
 
 import java.util.List;
+@RequiredArgsConstructor
+public class MechanicServiceImpl implements MechanicService {
+    private final MechanicRepository mechanicRepository;
+    public void add(List<Mechanic> records){
+        mechanicRepository.add(records);
+    }
+    public Mechanic find(Integer id){
+        return mechanicRepository.find(id);
+    }
 
-public interface MechanicServiceImpl {
-    void add(List<Mechanic> records);
-    Mechanic find(Integer id);
-
-    void delete(Mechanic record);
+    public void delete(Mechanic record){
+        mechanicRepository.delete(record);
+    }
 }

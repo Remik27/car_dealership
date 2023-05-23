@@ -1,12 +1,20 @@
 package zajavka.pl.service;
 
+import lombok.RequiredArgsConstructor;
 import zajavka.pl.domain.Address;
 
 import java.util.List;
+@RequiredArgsConstructor
+public class AddressServiceImpl implements AddressService{
+    private final AddressRepository addressRepository;
+    public void add(List<Address> records){
+        addressRepository.add(records);
+    }
+    public Address find(Integer id){
+        return addressRepository.find(id);
+    }
 
-public interface AddressServiceImpl {
-    void add(List<Address> records);
-    Address find(Integer id);
-
-    void delete(Address record);
+    public void delete(Address record){
+        addressRepository.delete(record);
+    }
 }

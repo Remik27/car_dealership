@@ -7,7 +7,7 @@ import zajavka.pl.domain.Mechanic;
 import java.util.List;
 import java.util.Objects;
 
-public class MechanicReposotoryImpl implements MechanicReposotory{
+public class MechanicRepositoryImpl implements MechanicRepository {
     @Override
     public void add(List<Mechanic> records) {
         Session session = HibernateUtil.getSession();
