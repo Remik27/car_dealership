@@ -4,18 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Created repository classes and interfaces">
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepository.java" afterDir="false" />
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Completed AddressRepositoryImpl and refactor HibernateUtil">
       <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +28,7 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RESET_MODE" value="SOFT" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -48,19 +40,19 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "last_opened_file_path": "C:/Users/ASUS/IdeaProjects/car_dealership",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.0",
-    "project.structure.side.proportion": "0.0"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/ASUS/IdeaProjects/car_dealership&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;
   },
-  "keyToStringList": {
-    "com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File": [
-      "POSTGRES-SQL"
+  &quot;keyToStringList&quot;: {
+    &quot;com.intellij.ide.scratch.ScratchImplUtil$2/New Scratch File&quot;: [
+      &quot;POSTGRES-SQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\ASUS\IdeaProjects\car_dealership\src\main\resources" />
@@ -144,7 +136,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684867747350</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Completed AddressRepositoryImpl and refactor HibernateUtil">
+      <created>1684869728289</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1684869728289</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -166,6 +165,7 @@
     <MESSAGE value="complete relations(CarServiceRequest, ServiceMechanic)" />
     <MESSAGE value="deleted ServicePart.java" />
     <MESSAGE value="Created repository classes and interfaces" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created repository classes and interfaces" />
+    <MESSAGE value="Completed AddressRepositoryImpl and refactor HibernateUtil" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed AddressRepositoryImpl and refactor HibernateUtil" />
   </component>
 </project>

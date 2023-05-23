@@ -8,5 +8,5 @@ public interface CarServiceRequestRepository {
     void add(List<CarServiceRequest> records);
     CarServiceRequest find(Integer id);
 
-    void delete(Integer id);
+    void delete(CarServiceRequest record);
 }
