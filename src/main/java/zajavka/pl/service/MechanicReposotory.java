@@ -8,5 +8,5 @@ public interface MechanicReposotory {
     void add(List<Mechanic> records);
     Mechanic find(Integer id);
 
-    void delete(Integer id);
+    void delete(Mechanic record);
 }
