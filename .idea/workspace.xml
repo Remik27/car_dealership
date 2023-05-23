@@ -4,30 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="deleted ServicePart.java">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepositoryImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepositoryImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Created repository classes and interfaces">
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicReposotory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684859593784</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Created repository classes and interfaces">
+      <created>1684867747350</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1684867747350</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -170,6 +165,7 @@
     <MESSAGE value="complete relations" />
     <MESSAGE value="complete relations(CarServiceRequest, ServiceMechanic)" />
     <MESSAGE value="deleted ServicePart.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="deleted ServicePart.java" />
+    <MESSAGE value="Created repository classes and interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created repository classes and interfaces" />
   </component>
 </project>
