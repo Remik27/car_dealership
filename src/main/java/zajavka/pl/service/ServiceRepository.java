@@ -8,5 +8,5 @@ public interface ServiceRepository {
     void add(List<Service> records);
     Service find(Integer id);
 
-    void delete(Integer id);
+    void delete(Service record);
 }
