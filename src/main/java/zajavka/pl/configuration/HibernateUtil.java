@@ -45,7 +45,6 @@ public class HibernateUtil {
                     .addAnnotatedClass(Salesman.class)
                     .addAnnotatedClass(Service.class)
                     .addAnnotatedClass(ServiceMechanic.class)
-                    .addAnnotatedClass(ServicePart.class)
                     .getMetadataBuilder()
                     .build();
             return metadata.getSessionFactoryBuilder().build();
