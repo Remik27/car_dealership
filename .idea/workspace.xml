@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Completed CarToBuyRepositoryImpl">
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Completed MechanicReposotoryImpl">
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepositoryImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -157,7 +157,35 @@
       <option name="project" value="LOCAL" />
       <updated>1684869975683</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Completed CarToServiceRepositoryImpl">
+      <created>1684870280395</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870280395</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Completed CustomerRepositoryImpl">
+      <created>1684870354382</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870354382</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Completed InvoiceRepositoryImpl">
+      <created>1684870453162</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870453162</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Completed MechanicReposotoryImpl">
+      <created>1684870524188</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870524188</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -182,6 +210,10 @@
     <MESSAGE value="Completed AddressRepositoryImpl and refactor HibernateUtil" />
     <MESSAGE value="Completed CarServiceRequestRepositoryImpl" />
     <MESSAGE value="Completed CarToBuyRepositoryImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed CarToBuyRepositoryImpl" />
+    <MESSAGE value="Completed CarToServiceRepositoryImpl" />
+    <MESSAGE value="Completed CustomerRepositoryImpl" />
+    <MESSAGE value="Completed InvoiceRepositoryImpl" />
+    <MESSAGE value="Completed MechanicReposotoryImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed MechanicReposotoryImpl" />
   </component>
 </project>

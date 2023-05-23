@@ -8,5 +8,5 @@ public interface PartRepository {
     void add(List<Part> records);
     Part find(Integer id);
 
-    void delete(Integer id);
+    void delete(Part record);
 }
