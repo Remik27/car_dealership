@@ -8,5 +8,5 @@ public interface CarToServiceRepository {
     void add(List<CarToService> records);
     CarToService find(Integer id);
 
-    void delete(Integer id);
+    void delete(CarToService record);
 }
