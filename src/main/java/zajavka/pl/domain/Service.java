@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.Set;
 
 @Entity
 @Data
@@ -22,4 +23,8 @@ public class Service {
 
     @Column(name = "price")
     private BigDecimal price;
+
+    @OneToMany(mappedBy = "service")
+    private Set<ServiceMechanic> serviceMechanics;
+
 }

@@ -37,7 +37,7 @@ public class HibernateUtil {
                     .addAnnotatedClass(Address.class)
                     .addAnnotatedClass(CarServiceRequest.class)
                     .addAnnotatedClass(CarToBuy.class)
-                    .addAnnotatedClass(CartoService.class)
+                    .addAnnotatedClass(CarToService.class)
                     .addAnnotatedClass(Customer.class)
                     .addAnnotatedClass(Invoice.class)
                     .addAnnotatedClass(Mechanic.class)

@@ -18,14 +18,16 @@ public class ServiceMechanic {
     @Column(name = "comment")
     private String comment;
 
-    @Column(name = "car_service_request_id")
-    private Integer carServiceRequestID;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "car_service_request_id")
+    private CarServiceRequest carServiceRequest;
 
-    @Column(name = "mechanic_id")
-    private Integer mechanicID;
+    @ManyToOne()
+    @JoinColumn(name = "mechanic_id")
+    private Mechanic mechanic;
 
 
-    @Column(name = "service_id ")
-    private Integer serviceID;
-
+    @ManyToOne()
+    @JoinColumn(name = "service_id")
+    private Service service;
 }

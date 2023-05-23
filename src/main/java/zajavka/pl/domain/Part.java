@@ -23,4 +23,6 @@ public class Part {
     @Column(name = "price")
     private BigDecimal price;
 
+    @ManyToMany(mappedBy = "parts")
+    private CarServiceRequest carServiceRequests;
 }

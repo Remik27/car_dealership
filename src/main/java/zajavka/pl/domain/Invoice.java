@@ -21,12 +21,15 @@ public class Invoice {
     @Column(name = "date_time")
     private OffsetDateTime dateTime;
 
-    @Column(name = "car_to_buy_id")
-    private Integer carToBuyID;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "car_to_buy_id")
+    private CarToBuy carToBuy;
 
-    @Column(name = "customer_id")
-    private Integer customerID;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "customer_id")
+    private Customer customer;
 
-    @Column(name = "salesman_id")
-    private Integer salesmanID;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "salesman_id")
+    private Salesman salesman;
 }

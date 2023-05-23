@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.Set;
 
 @Entity
 @Data
@@ -31,4 +32,7 @@ public class CarToBuy {
 
     @Column(name = "price")
     private BigDecimal price;
+
+    @OneToMany(mappedBy = "car_to_buy")
+    private Set<Salesman> salesmans;
 }

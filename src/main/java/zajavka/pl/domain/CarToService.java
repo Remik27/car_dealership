@@ -3,10 +3,12 @@ package zajavka.pl.domain;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.Set;
+
 @Entity
 @Data
 @Table(name = "car_to_service")
-public class CartoService {
+public class CarToService {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "car_to_service_id")
@@ -23,5 +25,8 @@ public class CartoService {
 
     @Column(name = "year")
     private Short year;
+
+    @OneToMany(mappedBy = "carToService")
+    private Set<CarServiceRequest> carServiceRequests;
 }
 

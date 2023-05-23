@@ -3,6 +3,8 @@ package zajavka.pl.domain;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.Set;
+
 @Entity
 @Data
 @Table(name = "customer")
@@ -24,6 +26,13 @@ public class Customer {
     @Column(name = "email")
     private String email;
 
-    @Column(name = "address_id")
-    private Integer addressID;
+    @OneToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "address_id", unique = true)
+    private Address address;
+
+    @OneToMany(mappedBy = "customer")
+    private Set<Invoice> invoices;
+
+    @OneToMany(mappedBy = "customer")
+    private Set<CarServiceRequest> carServiceRequests;
 }

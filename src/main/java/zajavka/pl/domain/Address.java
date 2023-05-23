@@ -25,4 +25,7 @@ public class Address {
     @Column(name = "address")
     private String address;
 
+    @OneToOne(mappedBy = "address", fetch = FetchType.LAZY)
+    private Customer customer;
+
 }

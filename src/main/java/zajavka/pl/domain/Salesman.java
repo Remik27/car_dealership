@@ -3,6 +3,8 @@ package zajavka.pl.domain;
 import jakarta.persistence.*;
 import lombok.Data;
 
+import java.util.Set;
+
 @Entity
 @Data
 @Table(name = "salesman")
@@ -21,4 +23,7 @@ public class Salesman {
 
     @Column(name = "pesel")
     private String pesel;
+
+    @OneToMany(mappedBy = "salesman_id")
+    private Set<Invoice> invoices;
 }

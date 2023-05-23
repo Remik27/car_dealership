@@ -4,6 +4,7 @@ import jakarta.persistence.*;
 import lombok.Data;
 
 import java.time.OffsetDateTime;
+import java.util.Set;
 
 @Entity
 @Table(name = "car_service_request")
@@ -27,9 +28,22 @@ public class CarServiceRequest {
     @Column(name = "customer_comment")
     private String customerComment;
 
-    @Column(name = "customer_id")
-    private Integer customerID;
+    @ManyToOne(fetch = FetchType.EAGER)
+    @JoinColumn(name = "customer_id")
+    private Customer customer;
 
-    @Column(name = "car_to_service_id")
-    private Integer carToServiceID;
+    @ManyToOne
+    @JoinColumn(name = "car_to_service_id")
+    private CarToService carToService;
+
+    @ManyToMany()
+    @JoinTable(
+            name = "service_part",
+            joinColumns = @JoinColumn(name ="car_service_request_id"),
+            inverseJoinColumns = @JoinColumn(name = "part_id")
+    )
+    private Set<Part> parts;
+
+    @OneToMany(mappedBy = "carServiceRequest")
+    private Set<ServiceMechanic> serviceMechanics;
 }
