@@ -4,9 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Completed MechanicReposotoryImpl">
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepositoryImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartRepositoryImpl.java" afterDir="false" />
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Completed ServiceRepositoryImpl">
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/AddressServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceServiceImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -185,7 +205,35 @@
       <option name="project" value="LOCAL" />
       <updated>1684870524188</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Completed PartRepositoryImpl">
+      <created>1684870594209</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870594209</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Completed SalesmanRepositoryImpl">
+      <created>1684870684335</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870684335</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Completed ServiceMechanicRepositoryImpl">
+      <created>1684870765067</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870765067</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Completed ServiceRepositoryImpl">
+      <created>1684870852512</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1684870852512</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -214,6 +262,10 @@
     <MESSAGE value="Completed CustomerRepositoryImpl" />
     <MESSAGE value="Completed InvoiceRepositoryImpl" />
     <MESSAGE value="Completed MechanicReposotoryImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed MechanicReposotoryImpl" />
+    <MESSAGE value="Completed PartRepositoryImpl" />
+    <MESSAGE value="Completed SalesmanRepositoryImpl" />
+    <MESSAGE value="Completed ServiceMechanicRepositoryImpl" />
+    <MESSAGE value="Completed ServiceRepositoryImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed ServiceRepositoryImpl" />
   </component>
 </project>
