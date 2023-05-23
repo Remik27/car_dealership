@@ -8,5 +8,5 @@ public interface InvoiceRepository {
     void add(List<Invoice> records);
     Invoice find(Integer id);
 
-    void delete(Integer id);
+    void delete(Invoice record);
 }

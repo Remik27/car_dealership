@@ -1,4 +1,45 @@
 package zajavka.pl.service;
 
-public class InvoiceRepositoryImpl {
+import org.hibernate.Session;
+import zajavka.pl.configuration.HibernateUtil;
+import zajavka.pl.domain.Invoice;
+
+import java.util.List;
+import java.util.Objects;
+
+public class InvoiceRepositoryImpl implements InvoiceRepository {
+    @Override
+    public void add(List<Invoice> records) {
+        Session session = HibernateUtil.getSession();
+        if (Objects.isNull(session)){
+            throw new RuntimeException("Session is null");
+        }
+        session.beginTransaction();
+        records.forEach(session::persist);
+        session.getTransaction().commit();
+    }
+
+    @Override
+    public Invoice find(Integer id) {
+        Session session = HibernateUtil.getSession();
+        if (Objects.isNull(session)){
+            throw new RuntimeException("Session is null");
+        }
+        session.beginTransaction();
+        Invoice invoice = session.get(Invoice.class, id);
+        session.getTransaction().commit();
+        return invoice;
+
+    }
+
+    @Override
+    public void delete(Invoice record) {
+        Session session = HibernateUtil.getSession();
+        if (Objects.isNull(session)){
+            throw new RuntimeException("Session is null");
+        }
+        session.beginTransaction();
+        session.remove(record);
+        session.getTransaction().commit();
+    }
 }
