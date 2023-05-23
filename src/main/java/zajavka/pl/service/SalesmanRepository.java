@@ -8,5 +8,5 @@ public interface SalesmanRepository {
     void add(List<Salesman> records);
     Salesman find(Integer id);
 
-    void delete(Integer id);
+    void delete(Salesman record);
 }
