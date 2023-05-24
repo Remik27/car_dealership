@@ -1,5 +1,8 @@
 package zajavka.pl.service;
 
+import java.nio.file.Path;
+import java.util.List;
+
 public interface MdFileReader {
-    String read(String filePath);
+    List<String> read(String filePath);
 }

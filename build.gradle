@@ -50,7 +50,7 @@ dependencies {
 
     implementation "org.hibernate:hibernate-core:$hibernateConfiguration"
 
-    implementation "com.vladsch.flexmark:flexmark:$flexMarkVersion"
+
 
 }
 
