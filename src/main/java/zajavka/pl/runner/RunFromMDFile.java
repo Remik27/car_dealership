@@ -10,7 +10,6 @@ public class RunFromMDFile {
         MdFileReader mdFileReader = new MdFileReaderImpl();
         String path = "src\\main\\resources\\6450c66bbfd3e10024ca2066-car-dealership-traffic-simulation.md";
         List<String> strings = mdFileReader.read(path);
-strings.forEach(System.out::println);
 
 
     }

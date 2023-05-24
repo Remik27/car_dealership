@@ -9,4 +9,6 @@ public interface PartService {
     Part find(Integer id);
 
     void delete(Part record);
+
+    void add(String values);
 }

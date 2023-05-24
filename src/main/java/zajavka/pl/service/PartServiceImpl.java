@@ -17,4 +17,9 @@ public class PartServiceImpl implements PartService {
     public void delete(Part record){
         partRepository.delete(record);
     }
+
+    @Override
+    public void add(String values) {
+
+    }
 }

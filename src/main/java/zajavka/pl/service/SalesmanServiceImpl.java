@@ -17,4 +17,9 @@ public class SalesmanServiceImpl implements SalesmanService{
     public void delete(Salesman record){
         salesmanRepository.delete(record);
     }
+
+    @Override
+    public void add(String values) {
+
+    }
 }

@@ -1,10 +1,11 @@
 package zajavka.pl.domain;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Data;
 
 import java.util.Set;
-
+@Builder
 @Entity
 @Data
 @Table(name = "salesman")

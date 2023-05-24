@@ -17,4 +17,9 @@ public class CarToBuyServiceImpl implements CarToBuyService {
     public void delete(CarToBuy record){
         carToBuyRepository.delete(record);
     }
+
+    @Override
+    public void add(String values) {
+
+    }
 }

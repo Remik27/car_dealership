@@ -9,4 +9,6 @@ public interface CarToBuyService {
     CarToBuy find(Integer id);
 
     void delete(CarToBuy record);
+
+    void add(String values);
 }

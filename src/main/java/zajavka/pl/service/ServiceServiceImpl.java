@@ -17,4 +17,9 @@ public class ServiceServiceImpl implements ServiceService{
     public void delete(Service record){
         serviceRepository.delete(record);
     }
+
+    @Override
+    public void add(String values) {
+
+    }
 }

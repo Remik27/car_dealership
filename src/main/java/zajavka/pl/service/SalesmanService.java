@@ -9,4 +9,6 @@ public interface SalesmanService {
     Salesman find(Integer id);
 
     void delete(Salesman record);
+
+    void add(String values);
 }

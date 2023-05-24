@@ -9,4 +9,6 @@ public interface MechanicService {
     Mechanic find(Integer id);
 
     void delete(Mechanic record);
+
+    void add(String values);
 }

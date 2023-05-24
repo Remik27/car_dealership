@@ -17,4 +17,9 @@ public class MechanicServiceImpl implements MechanicService {
     public void delete(Mechanic record){
         mechanicRepository.delete(record);
     }
+
+    @Override
+    public void add(String values) {
+
+    }
 }

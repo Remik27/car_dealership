@@ -9,4 +9,6 @@ public interface ServiceService {
     Service find(Integer id);
 
     void delete(Service record);
+
+    void add(String values);
 }
