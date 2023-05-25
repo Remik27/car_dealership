@@ -10,5 +10,5 @@ public interface CarServiceRequestService {
 
     void delete(CarServiceRequest record);
 
-    void add(String values);
+    void add(String[] values);
 }

@@ -17,4 +17,9 @@ public class ServiceMechanicServiceImpl implements ServiceMechanicService {
     public void delete(ServiceMechanic record){
         serviceMechanicServiceRepository.delete(record);
     }
+
+    @Override
+    public void doTheService(String[] values) {
+
+    }
 }

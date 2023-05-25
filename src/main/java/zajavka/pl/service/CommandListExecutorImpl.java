@@ -41,9 +41,9 @@ public class CommandListExecutorImpl implements CommandListExecutor {
 
     private void customerActions(String[] splitedCommand) {
         switch (splitedCommand[0]) {
-            case "BUY_FIRST_TIME" -> invoiceService.buyFirstTime(splitedCommand[2]);
-            case "BUY_AGAIN" -> invoiceService.buyAgain(splitedCommand[2]);
-            case "SERVICE_REQUEST" -> carServiceRequestService.add(splitedCommand[2]);
+            case "BUY_FIRST_TIME" -> invoiceService.buyFirstTime(splitedCommand);
+            case "BUY_AGAIN" -> invoiceService.buyAgain(splitedCommand);
+            case "SERVICE_REQUEST" -> carServiceRequestService.add(splitedCommand);
         }
     }
 
@@ -68,7 +68,7 @@ public class CommandListExecutorImpl implements CommandListExecutor {
     private void mechanicActions(String[] splitedCommand) {
         switch (splitedCommand[0]) {
             case "INIT" -> mechanicService.add(splitedCommand[2]);
-            case "DO_THE_SERVICE" -> serviceMechanicService.doTheService(splitedCommand[2]);
+            case "DO_THE_SERVICE" -> serviceMechanicService.doTheService(splitedCommand);
         }
     }
 

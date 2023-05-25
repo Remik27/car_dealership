@@ -10,5 +10,5 @@ public interface ServiceMechanicService {
 
     void delete(ServiceMechanic record);
 
-    void doTheService(String values);
+    void doTheService(String[] values);
 }

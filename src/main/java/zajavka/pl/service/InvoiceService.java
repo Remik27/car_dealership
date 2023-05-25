@@ -10,7 +10,7 @@ public interface InvoiceService {
 
     void delete(Invoice record);
 
-    void buyFirstTime(String values);
+    void buyFirstTime(String[] values);
 
-    void buyAgain(String values);
+    void buyAgain(String[] values);
 }
