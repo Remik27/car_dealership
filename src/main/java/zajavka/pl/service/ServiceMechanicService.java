@@ -9,4 +9,6 @@ public interface ServiceMechanicService {
     ServiceMechanic find(Integer id);
 
     void delete(ServiceMechanic record);
+
+    void doTheService(String values);
 }

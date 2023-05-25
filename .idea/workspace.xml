@@ -4,22 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="Fixed MdFileReaderImpl">
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CommandListExecutor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CommandListExecutorImpl.java" afterDir="false" />
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="refactor and add new variations of method add with param = String">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Salesman.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/Salesman.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/runner/RunFromMDFile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/runner/RunFromMDFile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToBuyServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/MechanicServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/PartServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/SalesmanServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CommandListExecutorImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CommandListExecutorImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/InvoiceService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +270,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684958301158</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="refactor and add new variations of method add with param = String">
+      <created>1684961203925</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1684961203925</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -320,6 +316,7 @@
     <MESSAGE value="Added MarkDawn Reader" />
     <MESSAGE value="Completed MdFileReaderImpl" />
     <MESSAGE value="Fixed MdFileReaderImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fixed MdFileReaderImpl" />
+    <MESSAGE value="refactor and add new variations of method add with param = String" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor and add new variations of method add with param = String" />
   </component>
 </project>

@@ -9,4 +9,6 @@ public interface CarServiceRequestService {
     CarServiceRequest find(Integer id);
 
     void delete(CarServiceRequest record);
+
+    void add(String values);
 }

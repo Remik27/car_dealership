@@ -9,4 +9,8 @@ public interface InvoiceService {
     Invoice find(Integer id);
 
     void delete(Invoice record);
+
+    void buyFirstTime(String values);
+
+    void buyAgain(String values);
 }
