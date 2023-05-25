@@ -4,8 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="completed CommandListExecutorImpl">
-      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/ServiceMechanicServiceImpl.java" afterDir="false" />
+    <list default="true" id="9c94089f-e91c-462f-b477-72bf8c9623a2" name="Changes" comment="fix CommandListExecutorImpl">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CarServiceRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/domain/CarServiceRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarServiceRequestServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CarToServiceService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/zajavka/pl/service/CustomerService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -281,7 +285,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685040367038</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="fix CommandListExecutorImpl">
+      <created>1685040702407</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1685040702407</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -296,7 +307,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Add HibernateUtil" />
     <MESSAGE value="complete entity data" />
     <MESSAGE value="complete relations" />
     <MESSAGE value="complete relations(CarServiceRequest, ServiceMechanic)" />
@@ -321,6 +331,7 @@
     <MESSAGE value="Fixed MdFileReaderImpl" />
     <MESSAGE value="refactor and add new variations of method add with param = String" />
     <MESSAGE value="completed CommandListExecutorImpl" />
-    <option name="LAST_COMMIT_MESSAGE" value="completed CommandListExecutorImpl" />
+    <MESSAGE value="fix CommandListExecutorImpl" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix CommandListExecutorImpl" />
   </component>
 </project>

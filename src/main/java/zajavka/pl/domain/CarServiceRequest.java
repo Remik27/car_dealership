@@ -1,6 +1,7 @@
 package zajavka.pl.domain;
 
 import jakarta.persistence.*;
+import lombok.Builder;
 import lombok.Data;
 
 import java.time.OffsetDateTime;
@@ -9,6 +10,7 @@ import java.util.Set;
 @Entity
 @Table(name = "car_service_request")
 @Data
+@Builder
 public class CarServiceRequest {
 
     @Id
